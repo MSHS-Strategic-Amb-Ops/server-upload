@@ -126,7 +126,7 @@ hh_crosswalk <- read.csv("hh_crosswalk.csv")
 write.csv(hh_crosswalk, "/nfs/data/Applications/Ambulatory/hh_crosswalk.csv")
 
 # Radiology Volume Monthly Summary Data 
-Radiology_Data <- read.csv("Radiology_Data.xlsx")
+Radiology_Data <- read.csv("Radiology_Data.csv")
 write.csv(Radiology_Data, "/nfs/data/Applications/Ambulatory/Radiology_Data.csv")
 
 # Radiology Site Mapping 

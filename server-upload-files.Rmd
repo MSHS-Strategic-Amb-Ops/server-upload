@@ -118,11 +118,11 @@ suppressMessages({
 ```{r Ambulatory Report Files, echo = FALSE, warning = FALSE, message = FALSE}
 
 # Weekly Hand Hygiene Data
-hh_comp <- read.csv("hh_comp.xlsx")
+hh_comp <- read.csv("hh_comp.csv")
 write.csv(hh_comp, "/nfs/data/Applications/Ambulatory/hh_comp.csv")
 
 # HH Unit Crosswalk 
-hh_crosswalk <- read.csv("hh_crosswalk.xlsx")
+hh_crosswalk <- read.csv("hh_crosswalk.csv")
 write.csv(hh_crosswalk, "/nfs/data/Applications/Ambulatory/hh_crosswalk.csv")
 
 # Radiology Volume Monthly Summary Data 
@@ -130,11 +130,11 @@ Radiology_Data <- read.csv("Radiology_Data.xlsx")
 write.csv(Radiology_Data, "/nfs/data/Applications/Ambulatory/Radiology_Data.csv")
 
 # Radiology Site Mapping 
-Radiology_Site_Mapping <- read.csv("Radiology_Site_Mapping.xlsx")
+Radiology_Site_Mapping <- read.csv("Radiology_Site_Mapping.csv")
 write.csv(Radiology_Site_Mapping, "/nfs/data/Applications/Ambulatory/Radiology_Site_Mapping.csv")
 
 # Rad Onc Volume Monthly Summary Data 
-Rad_Onc_Data <- read.csv("Rad_Onc_Data.xlsx")
+Rad_Onc_Data <- read.csv("Rad_Onc_Data.csv")
 write.csv(Rad_Onc_Data, "/nfs/data/Applications/Ambulatory/Rad_Onc_Data.csv")
 
 # Open Encounters Exclusion Criteria

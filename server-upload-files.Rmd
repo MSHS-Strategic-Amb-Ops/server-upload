@@ -1,0 +1,153 @@
+---
+title: "Upload Files to Server"
+output: html_document
+resource_files:
+- radiology-data/radiology_historical_data.rds
+---
+
+
+```{r Load Packages, echo = FALSE, warning = FALSE, message = FALSE}
+suppressMessages({
+  library(readxl)
+  library(writexl)
+  library(plyr)
+  library(dplyr)
+  library(data.table)
+  library(zoo)
+  library(shiny)
+  library(shinydashboard)
+  library(shinydashboardPlus)
+  library(shinyWidgets)
+  library(htmlwidgets)
+  library(lubridate)
+  library(tcltk)
+  library(tidyverse)
+  library(plotly)
+  library(knitr)
+  library(kableExtra)
+  library(leaflet)
+  library(grid)
+  library(gridExtra)
+  library(eeptools)
+  library(ggQC)
+  #library(zipcode)
+  library(utils)
+  library(scales)
+  library(chron)
+  library(bupaR)
+  library(shiny)
+  library(DT)
+  library(DiagrammeR)
+  library(shinyalert)
+  library(edeaR)
+  library(processmapR)
+  library(processmonitR)
+  library(processanimateR)
+  library(tidyr)
+  library(lubridate)
+  library(RColorBrewer)
+  library(DiagrammeR)
+  library(ggplot2)
+  library(leaflet)
+  library(readr)
+  library(highcharter)
+  library(ggforce) # for 'geom_arc_bar'
+  library(packcircles) # for packed circle graph
+  library(viridis)
+  library(ggiraph)
+  library(treemapify)
+  library(treemap)
+  library(broom)
+  library(extrafont)
+  library(tis) # for US holidays
+  library(vroom)
+  library(sjmisc)
+  library(tools)
+  library(here)
+  library(shinyBS)
+  library(shinyscreenshot)
+  library(fasttime)
+  library(shinycssloaders)
+  library(feather)
+  library(zipcodeR)
+  library(formattable)
+  library(shinyjs)
+  library(janitor)
+  library(patchwork)
+  library(pryr)
+  library(DBI)
+  library(odbc)
+  library(rhandsontable)
+  library(dplyr)
+  library(openxlsx)
+  library(png)
+})
+
+```
+
+
+```{r MSHS Room Inventory Files, echo = FALSE, warning = FALSE, message = FALSE}
+
+# mshs_room_allocation <- read_excel("MSHS_Room_Allocation.xlsx")
+# mshs_admin_room_allocation <- read_excel("MSHS_Admin_Room_Allocation.xlsx")
+# epic_depts_clean <- read_csv("Epic_Department_Mapping_Correction.csv")
+# room_inv_survey_repo <- read_excel("Room_Inventory_Repo.xlsx")
+# admin_room_inv_survey_repo <- read_excel("Admin_Room_Inventory_Repo.xlsx")
+# survey_repo <- read_excel("survey_response_repo.xlsx")
+# room_types <- read_csv("room_type_clean.csv")
+# 
+# write.xlsx(mshs_room_allocation, "/data/Space_Utilization/MSHS_Room_Allocation.xlsx")
+# write.xlsx(mshs_admin_room_allocation, "/data/Space_Utilization/MSHS_Admin_Room_Allocation.xlsx")
+# write.csv(epic_depts_clean, "/data/Space_Utilization/Epic_Department_Mapping_Correction.csv")
+# write_xlsx(room_inv_survey_repo, "/data/Space_Utilization/Room_Inventory_Repo.xlsx")
+# write_xlsx(admin_room_inv_survey_repo, "/data/Space_Utilization/Admin_Room_Inventory_Repo.xlsx")
+# write.xlsx(survey_repo, "/data/Space_Utilization/survey_response_repo.xlsx")
+# write.csv(room_types, "/data/Space_Utilization/room_type_clean.csv")
+
+```
+
+
+```{r Radiology Daily Processing Files, echo = FALSE, warning = FALSE, message = FALSE}
+
+# radiology_historical_data <- readRDS("radiology-data/radiology_historical_data.rds")
+# saveRDS(radiology_historical_data, "/data/Radiology/data_upload/radiology_historical_data.rds")
+
+```
+
+
+```{r Ambulatory Report Files, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Weekly Hand Hygiene Data
+hh_comp <- read.csv("hh_comp.xlsx")
+write.csv(hh_comp, "/nfs/data/Applications/Ambulatory/hh_comp.csv")
+
+# HH Unit Crosswalk 
+hh_crosswalk <- read.csv("hh_crosswalk.xlsx")
+write.csv(hh_crosswalk, "/nfs/data/Applications/Ambulatory/hh_crosswalk.csv")
+
+# Radiology Volume Monthly Summary Data 
+Radiology_Data <- read.csv("Radiology_Data.xlsx")
+write.csv(Radiology_Data, "/nfs/data/Applications/Ambulatory/Radiology_Data.csv")
+
+# Radiology Site Mapping 
+Radiology_Site_Mapping <- read.csv("Radiology_Site_Mapping.xlsx")
+write.csv(Radiology_Site_Mapping, "/nfs/data/Applications/Ambulatory/Radiology_Site_Mapping.csv")
+
+# Rad Onc Volume Monthly Summary Data 
+Rad_Onc_Data <- read.csv("Rad_Onc_Data.xlsx")
+write.csv(Rad_Onc_Data, "/nfs/data/Applications/Ambulatory/Rad_Onc_Data.csv")
+
+# Open Encounters Exclusion Criteria
+open_enc_exc <- read_excel("open_encounters_exclusion.xlsx")
+write_xlsx(open_enc_exc, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion.xlsx")
+
+# Epic Department Crosswalk
+epic_depts <- read.csv("Epic Department Mapping Correction.csv")
+write.csv(epic_depts, "/nfs/data/Applications/Ambulatory/Epic Department Mapping Correction.csv")
+
+# Mount Sinai Logo
+logo <- readPNG("Mount_Sinai_Logo_H.png")
+png("Mount_Sinai_Logo_H.png")
+
+```
+

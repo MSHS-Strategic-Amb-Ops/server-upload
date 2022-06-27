@@ -138,8 +138,14 @@ Rad_Onc_Data <- read.csv("Rad_Onc_Data.csv")
 write.csv(Rad_Onc_Data, "/nfs/data/Applications/Ambulatory/Rad_Onc_Data.csv")
 
 # Open Encounters Exclusion Criteria
-open_enc_exc <- read_excel("open_encounters_exclusion.xlsx")
-write_xlsx(open_enc_exc, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion.xlsx")
+open_enc_exc_dept <- read_excel("open_encounters_exclusion.xlsx", sheet = "Department")
+write_xlsx(open_enc_exc_dept, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion_dept.xlsx")
+
+open_enc_exc_res <- read_excel("open_encounters_exclusion.xlsx", sheet = "resource")
+write_xlsx(open_enc_exc_res, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion_res.xlsx")
+
+open_enc_exc_visit <- read_excel("open_encounters_exclusion.xlsx", sheet = "Visit Type")
+write_xlsx(open_enc_exc_dept_visit, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion_visit.xlsx")
 
 # Epic Department Crosswalk
 epic_depts <- read.csv("Epic Department Mapping Correction.csv")

@@ -119,23 +119,23 @@ suppressMessages({
 
 # Weekly Hand Hygiene Data
 hh_comp <- read.csv("hh_comp.csv")
-write.csv(hh_comp, "/nfs/data/Applications/Ambulatory/hh_comp.csv")
+write.csv(hh_comp, "/nfs/data/Applications/Ambulatory/hh_comp.csv", row.names=FALSE)
 
 # HH Unit Crosswalk 
 hh_crosswalk <- read.csv("hh_crosswalk.csv")
-write.csv(hh_crosswalk, "/nfs/data/Applications/Ambulatory/hh_crosswalk.csv")
+write.csv(hh_crosswalk, "/nfs/data/Applications/Ambulatory/hh_crosswalk.csv", row.names=FALSE)
 
 # Radiology Volume Monthly Summary Data 
 Radiology_Data <- read.csv("Radiology_Data.csv")
-write.csv(Radiology_Data, "/nfs/data/Applications/Ambulatory/Radiology_Data.csv")
+write.csv(Radiology_Data, "/nfs/data/Applications/Ambulatory/Radiology_Data.csv", row.names=FALSE)
 
 # Radiology Site Mapping 
 Radiology_Site_Mapping <- read.csv("Radiology_Site_Mapping.csv")
-write.csv(Radiology_Site_Mapping, "/nfs/data/Applications/Ambulatory/Radiology_Site_Mapping.csv")
+write.csv(Radiology_Site_Mapping, "/nfs/data/Applications/Ambulatory/Radiology_Site_Mapping.csv", row.names=FALSE)
 
 # Rad Onc Volume Monthly Summary Data 
 Rad_Onc_Data <- read.csv("Rad_Onc_Data.csv")
-write.csv(Rad_Onc_Data, "/nfs/data/Applications/Ambulatory/Rad_Onc_Data.csv")
+write.csv(Rad_Onc_Data, "/nfs/data/Applications/Ambulatory/Rad_Onc_Data.csv", row.names=FALSE)
 
 # Open Encounters Exclusion Criteria
 open_enc_exc_dept <- read_excel("open_encounters_exclusion.xlsx", sheet = "Department")
@@ -149,7 +149,7 @@ write_xlsx(open_enc_exc_visit, "/nfs/data/Applications/Ambulatory/open_encounter
 
 # Epic Department Crosswalk
 epic_depts <- read.csv("Epic Department Mapping Correction.csv")
-write.csv(epic_depts, "/nfs/data/Applications/Ambulatory/Epic Department Mapping Correction.csv")
+write.csv(epic_depts, "/nfs/data/Applications/Ambulatory/Epic Department Mapping Correction.csv", row.names=FALSE)
 
 # Mount Sinai Logo
 logo <- readPNG("Mount_Sinai_Logo_H.png")

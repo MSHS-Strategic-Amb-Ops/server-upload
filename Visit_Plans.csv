@@ -1,0 +1,585 @@
+VISITPLAN,VISITPLAN_MAP,VisitPlan_Group
+EMPIRE BC/BS PRIORITY PPO,Commercial,Commercial/Managed Care
+EMBLEMHEALTH PLAN INC PPO,Commercial,Commercial/Managed Care
+HEALTHFIRST (MCD),Medicaid HMO,Medicaid/Medicaid Managed
+No Coverage Assigned,Self Pay,Self-Pay
+EMERGENCY MEDICAID,Medicaid,Medicaid/Medicaid Managed
+MEDICARE A & B,Medicare,Medicare/Medicare Managed
+AETNA MEDICARE PLANS,Medicare HMO,Medicare/Medicare Managed
+HEALTHFIRST LEAF,Exchange,Exchange
+EMBLEMHEALTH INS COMPANY,Commercial,Commercial/Managed Care
+CIGNA OPEN ACCESS PLUS,Commercial,Commercial/Managed Care
+EMPIRE BC/BS HMO,Commercial,Commercial/Managed Care
+BLUE CROSS/BLUE SHIELD PPO,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE CHOICE PLUS,Commercial,Commercial/Managed Care
+EMPIRE BC/BS LOCAL 32BJ MEMBER,Commercial,Commercial/Managed Care
+BCBS OUT OF STATE (PPO IN SUITCASE),Commercial,Commercial/Managed Care
+HEALTHFIRST 65+ (HMO),Medicare HMO,Medicare/Medicare Managed
+EMPIRE BC/BS MEDIBLUE HMO,Medicare HMO,Medicare/Medicare Managed
+UMR,Commercial,Commercial/Managed Care
+WORKER'S COMP GENERIC,WC/NP,
+FIDELIS HEALTHCARE MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+Self-pay,Self Pay,Self-Pay
+METROPLUS ESSENTIAL 3-4,Essential,
+MAGNACARE DIRECT PLUS,Commercial,Commercial/Managed Care
+CIGNA PPO,Commercial,Commercial/Managed Care
+UMR MT SINAI EMPLOYEE,Commercial,Commercial/Managed Care
+WTC-HEALTH SMART BENEFIT SOL,Commercial,Commercial/Managed Care
+HEALTHFIRST MCR- LIFE IMPROV PL,Medicare HMO,Medicare/Medicare Managed
+UNITED HEALTHCARE EMPIRE PLAN,Commercial,Commercial/Managed Care
+NIPPON LIFE BENEFITS (AETNA),Commercial,Commercial/Managed Care
+LOCAL 1199,Commercial,Commercial/Managed Care
+EMPIRE BC/BS HEALTHPLUS MCD,Medicaid HMO,Medicaid/Medicaid Managed
+EMBLEMHEALTH INS COMPANY MEDICARE,Medicare HMO,Medicare/Medicare Managed
+HIP HEALTHCARE PARTNERS MEDICARE,Medicare HMO,Medicare/Medicare Managed
+OXFORD FREEDOM PLAN EPO/PPO,COMMERCIAL,Commercial/Managed Care
+MEDICAID NYS,MEDICAID,Medicaid/Medicaid Managed
+FIDELIS ESSENTIALS 1-2,Essential,
+UNITED HEALTHCARE MEDICARE COMP,Medicare HMO,Medicare/Medicare Managed
+METROPLUS HEALTH PLANS (CAID),Medicaid HMO,Medicaid/Medicaid Managed
+AETNA PPO/EPO,Commercial,Commercial/Managed Care
+ADAP PLUS,Medicaid,Medicaid/Medicaid Managed
+UNITED HEALTHCARE COMMUNITY PLA,Medicaid HMO,Medicaid/Medicaid Managed
+HEALTHFIRST MCR-INCREASED BENEF,Medicare HMO,Medicare/Medicare Managed
+FIDELIS NY STATE OF HEALTH,Medicaid HMO,Medicaid/Medicaid Managed
+COMMERCIAL GENERIC,Commercial,Commercial/Managed Care
+FEDERAL EMPLOYEE PROGRAM,Commercial,Commercial/Managed Care
+OSCAR,Commercial,Commercial/Managed Care
+AETNA CHOICE POS II,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE ESSENTIAL 1-2,Essential,
+OPTUM MEDICARE B.H. UHC,Medicare HMO,Medicare/Medicare Managed
+GREAT WEST HEALTH/CIGNA,Commercial,Commercial/Managed Care
+HORIZON BC/BS OF N.J. PPO,Commercial,Commercial/Managed Care
+WELL CARE HEALTH PLAN (MEDICARE,Medicare HMO,Medicare/Medicare Managed
+HUMANA MEDICARE,Medicare HMO,Medicare/Medicare Managed
+METROPLUS ESSENTIAL 1-2,Essential,
+HEALTHFIRST ESSENTIALS 1 & 2,Essential,
+MEDICAID COMPUTER SCIENCES,Medicaid,Medicaid/Medicaid Managed
+AMIDA CARE CLAIMS DEPARTMENT,Medicaid HMO,Medicaid/Medicaid Managed
+AFFINITY BY MOLINA HEALTHCARE MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+AETNA HMO,Commercial,Commercial/Managed Care
+EMPIRE BC/BS HEALTHPLUS MCR,Medicare HMO,Medicare/Medicare Managed
+METROPLUS HEALTH PLANS (CARE),Medicare,Medicare/Medicare Managed
+TRANSPLANT INSTITUTE-RMTI,Commercial,Commercial/Managed Care
+CIGNA HMO,Commercial,Commercial/Managed Care
+FIDELIS FIDA ADVANTAGE,Medicare HMO,Medicare/Medicare Managed
+OXFORD LIBERTY,Commercial,Commercial/Managed Care
+HEALTHFIRST CHILD HEALTH PLUS A,Medicaid HMO,Medicaid/Medicaid Managed
+HEALTH FIRST SNP,Medicaid HMO,Medicaid/Medicaid Managed
+HORIZON NJ COMM HMO/PPO/IND/POS/EPO,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+UHC COMMUNITY PLAN-MEDICARE,Medicare HMO,Medicare/Medicare Managed
+MEDICARE PART B ONLY,Medicare,Medicare/Medicare Managed
+FIDELIS MEDICARE ADVANTAGE,Medicare HMO,Medicare/Medicare Managed
+EMPIRE BLUE ACCESS,Commercial,Commercial/Managed Care
+GLOBAL EXCEL INTERNATIONAL,Self Pay,Self-Pay
+UNITED HEALTHCARE COMM PLAN/NEW,Medicaid HMO,Medicaid/Medicaid Managed
+EMBLEMHEALTH INS COMPANY ESSENTIALS 3 & 4,Essential,
+AFFINITY MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+UNITED HEALTHCARE HMO,Commercial,Commercial/Managed Care
+NY HOTEL TRADE COUNCIL (NYHTC),Commercial,Commercial/Managed Care
+HEALTHFIRST MCD NON-ROSTERED,Medicaid HMO,Medicaid/Medicaid Managed
+EMBLEMHEALTH INS COMPANY MONTEFIORE CMO-MCD,Medicaid HMO,Medicaid/Medicaid Managed
+VNS CHOICE MEDICAID SELECT,Medicaid HMO,Medicaid/Medicaid Managed
+ELDERPLAN INC.,Medicare HMO,Medicare/Medicare Managed
+METROPLUS GOLD,Commercial,Commercial/Managed Care
+OXFORD LIBERTY NETWORK HMO,Commercial,Commercial/Managed Care
+HEALTHFIRST ESSENTIALS 3 & 4,Essential,
+EMBLEMHEALTH INS COMPANY EPO,Commercial,Commercial/Managed Care
+MULTIPLAN PHCS MISC,Commercial,Commercial/Managed Care
+MVP HEALTH INSURANCE CO,Commercial,Commercial/Managed Care
+PENDING MEDICAID,Medicaid,Medicaid/Medicaid Managed
+BRIGHT HEALTH MEDICARE ADVANTAGE,Medicare HMO,Medicare/Medicare Managed
+GOLDENRULE INSURANCE COMPANY,Commercial,Commercial/Managed Care
+AFFINITY BY MOLINA HEALTH ESSENTIAL 1-2,Essential,
+BC EXCHANGE INDIVIDUAL NETWORK,Exchange,Exchange
+VNS-NY MDCR CHOICE CLAIMS DEPT,Medicare HMO,Medicare/Medicare Managed
+EMBLEMHEALTH PLAN INC HMO SELECT INC,Commercial,Commercial/Managed Care
+EMPIRE BC/BS INDEMNITY,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY SELECT CARE,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY ESSENTIALS 1 & 2,Essential,
+UNITED HEALTHCARE EPO,Commercial,Commercial/Managed Care
+AETNA STUDENT HEALTH,Commercial,Commercial/Managed Care
+MAGNACARE MISC,Commercial,Commercial/Managed Care
+HUMANA HMO OPEN ACCESS,Commercial,Commercial/Managed Care
+FIDELIS ESSENTIALS 3/4,Essential,
+MANAGED HEALTHCARE MEDICARE,Medicare HMO,Medicare/Medicare Managed
+OXFORD LIBERTY PLAN CLASSIC POS,Commercial,Commercial/Managed Care
+EMPIRE BC/BS HEALTHPLUS CBP A,Medicaid HMO,Medicaid/Medicaid Managed
+HEALTHSMART BEN SOL-PHCS,Commercial,Commercial/Managed Care
+METROPLUS CHILD HEALTH PLANS A,Medicaid HMO,Medicaid/Medicaid Managed
+ARCH CARE SENIOR LIFE,Medicare HMO,Medicare/Medicare Managed
+WELLCARE EXCHANGE,Exchange,Exchange
+UNITED AMERICA-MDCR SUPPLEMENT,Commercial,Commercial/Managed Care
+EMPIRE CONNECTION NETWORK,Commercial,Commercial/Managed Care
+SPECTERA CLAIMS DEPT-VISION/MSI,Commercial,Commercial/Managed Care
+FIDELIS TENDERCARE-CHP A (CHILD),Medicaid HMO,Medicaid/Medicaid Managed
+HEALTHFIRST MACT MEDICARE,Medicare HMO,Medicare/Medicare Managed
+UNITED HEALTHCARE INDEMNITY,Commercial,Commercial/Managed Care
+OXFORD FREEDOM PLAN PPO,Commercial,Commercial/Managed Care
+LOCAL 272-MAGNACARE,Commercial,Commercial/Managed Care
+BCBS OUT OF STATE (EMPTY SUIT CASE),Commercial,Commercial/Managed Care
+RAILROAD MEDICARE,Medicare,Medicare/Medicare Managed
+AFFINITY ESSENTIALS 1-2,Essential,
+EMPIRE BC/BS PRIORITY HMO,Commercial,Commercial/Managed Care
+MACT UNITED MEDICAID HAH,Medicaid HMO,Medicaid/Medicaid Managed
+ALLIED BENEFITS SYSTEM-PHCS,Commercial,Commercial/Managed Care
+OPTUMHEALTH CMC (URN),Commercial,Commercial/Managed Care
+SELF PAY 75% OF APC CHARITY CARE,Self Pay,Self-Pay
+AARP HEALTH CARE OPTIONS - MCR,Medicare HMO,Medicare/Medicare Managed
+LOCAL 1102-MAGNACARE,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY HEALTHCARE PARTNERS MCD HMO,Medicaid HMO,Medicaid/Medicaid Managed
+COVID19 HRSA UNINSURED TREATMENT FUND,Self Pay,Self-Pay
+VILLAGECAREMAX,Commercial,Commercial/Managed Care
+SELF PAY 5% OF APC CHARITY CARE,Self Pay,Self-Pay
+BLUE CROSS MCR OUT OF STATE GENERIC,Medicare HMO,Medicare/Medicare Managed
+METROPLUS MARKETPLUS,Exchange,Exchange
+BCBS HOSPITAL ONLY PLAN,Commercial,Commercial/Managed Care
+LOCAL 3- MAGNACARE,Commercial,Commercial/Managed Care
+HEALTHFIRST MACT MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+MERITAIN HEALTH-AETNA,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE STUDENT RESOU,Commercial,Commercial/Managed Care
+EMPIRE BC/BS HEALTHPLUS ESSENTIALS 1-2,Essential,
+BRIGHT HEALTH COMMERCIAL,Medicare HMO,Medicare/Medicare Managed
+AETNA INDEMNITY,Commercial,Commercial/Managed Care
+FIDELIS TENDERCARE-CHP B,Medicaid HMO,Medicaid/Medicaid Managed
+NALC SECONDARY-CIGNA,Commercial,Commercial/Managed Care
+PARTNERS HEALTH PLAN FIDA,Medicare HMO,Medicare/Medicare Managed
+CONNECTICARE INC-MULT/PHCS,Commercial,Commercial/Managed Care
+TRICARE FOR LIFE,Commercial,Commercial/Managed Care
+HIP MONTEFIORE CMO-POS,Commercial,Commercial/Managed Care
+ZANUS OUT OF STATE MCD,Medicaid HMO,Medicaid/Medicaid Managed
+LOCAL 338-MAGNACARE,Commercial,Commercial/Managed Care
+CENTERLIGHT HEALTHCARE MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+ELDERPLAN FIDA PLAN,Medicare HMO,Medicare/Medicare Managed
+NEW YORK STATE WORKERS COMPENSATION BOARD,WC/NP,
+UPMC HEALTH PLAN-PHCS,commercial,Commercial/Managed Care
+FIRST CHOICE HEALTH ADMINISTRAT,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY HEALTHCARE PARTNERS,Commercial,Commercial/Managed Care
+COMPREHENSIVE BENEFITS INSURANC,Commercial,Commercial/Managed Care
+CIGNA INDEMNITY,Commercial,Commercial/Managed Care
+MAGNACAE (CDPHP PPO),Commercial,Commercial/Managed Care
+EMPIRE BC/BS HEALTHPLUS ESSENTIALS 3-4,Essential,
+CHRISTIAN BROTHERS-PHCS,Commercial,Commercial/Managed Care
+BENESIGHT (AETNA SIGN ADMIN),Commercial,Commercial/Managed Care
+OXFORD INDEMNITY,Commercial,Commercial/Managed Care
+LOCAL 670/RWDSU,Commercial,Commercial/Managed Care
+AETNA BLACKSTONE GROUP MEMBER,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY MONTEFIORE CMO-HMO MDCR,Medicare HMO,Medicare/Medicare Managed
+APWU HEALTH PLAN-CIGNA,Commercial,Commercial/Managed Care
+GEICO,Commercial,Commercial/Managed Care
+MAGNACARE PREFERRED,Commercial,Commercial/Managed Care
+GLOBAL MEDICAL MANAGEMENT,Commercial,Commercial/Managed Care
+HEALTH FIRST - 65 MSHQ MEMBER,Medicare HMO,Medicare/Medicare Managed
+EMPIRE BC/BS SOUTH NASSAU EMP (EPO/POS),Commercial,Commercial/Managed Care
+BCBS INDEMNITY OUT OF STATE,Commercial,Commercial/Managed Care
+HUMANA CHOICE CARE NETWORK,Commercial,Commercial/Managed Care
+HORIZON NJ HEALTH (MCD HMO),Medicaid HMO,Medicaid/Medicaid Managed
+LOCAL 812-MAGNACARE,Commercial,Commercial/Managed Care
+THIRD PARTY LIABILITY GENERIC,WC/NP,
+CORVEL CORPORATION,WC/NP,
+EMPIRE BC/BS HEALTHPLUS FIDA,Medicare HMO,Medicare/Medicare Managed
+CIGNA TPA,Commercial,Commercial/Managed Care
+CONNECTICARE,Commercial,Commercial/Managed Care
+PENDING WORKERS COMP,WC/NP,
+UNITED HEALTHCARE COMPASS,Exchange,Exchange
+MEDICARE MANAGED GENERIC,Medicare HMO,Medicare/Medicare Managed
+MULTIPLAN VALUE POINT,Commercial,Commercial/Managed Care
+MACT UNITED MEDICARE HAH,Medicare HMO,Medicare/Medicare Managed
+GEHA-45235,Commercial,Commercial/Managed Care
+HEALTHFIRST COMM IN MSH NETWORK,Commercial,Commercial/Managed Care
+HEALTHPLUS PPO-MULTI/PHCS,Commercial,Commercial/Managed Care
+MEDICAID MANAGED GENERIC,Medicaid HMO,Medicaid/Medicaid Managed
+STATE INSURANCE FUND,WC/NP,
+AMTRUST NORTH AMERICA,WC/NP,
+HEALTHFIRST COMM NOT MSH NETWORK,Commercial,Commercial/Managed Care
+PARTNERS HEALTH PLAN,Medicare HMO,Medicare/Medicare Managed
+LOCAL 8A-28A-MAGNACARE,Commercial,Commercial/Managed Care
+LOCAL 1-PCC-MULTIPLAN,Commercial,Commercial/Managed Care
+INTERNATIONAL SERVICES,Self Pay,Self-Pay
+UNITED HEALTH PLUS,Commercial,Commercial/Managed Care
+MAGNACARE JIB,Commercial,Commercial/Managed Care
+HEALTHSCOPE BENEFITS,Commercial,Commercial/Managed Care
+HORIZON OMNIA TIER 2,Commercial,Commercial/Managed Care
+OPTUM HEALTH MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+CRIME VICTIMS BOARD,Commercial,Commercial/Managed Care
+PRIVATE HEALTHCARE SYSTEM,Commercial,Commercial/Managed Care
+MEDICAID MANAGED PENDING,Medicaid HMO,Medicaid/Medicaid Managed
+PRESTIGE INTERNATIONAL USA INC,Commercial,Commercial/Managed Care
+SETTLEMENT HEALTH,Medicaid,Medicaid/Medicaid Managed
+CHAMPVA,Commercial,Commercial/Managed Care
+IRON WORKERS UNION-MAGNACARE,Commercial,Commercial/Managed Care
+CSP MANHATTAN,Commercial,Commercial/Managed Care
+CDPHP UNIVERSAL BENEFITS-MAGNAC,Commercial,Commercial/Managed Care
+WORLDWIDE CONCIERGE HEALTH SVC,Commercial,Commercial/Managed Care
+MAGNA JOINT & ELECTRIC INDSTRY,Commercial,Commercial/Managed Care
+BAS,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE ESSENTIAL 3-4,Essential,
+BLUE CARD-EXCHANGE PLAN,Commercial,Commercial/Managed Care
+SELF PAY 10% OF APC CHARITY CARE,Self Pay,Self-Pay
+ATLANTIC RLTY DEV CORP-MAGNACAR,Commercial,Commercial/Managed Care
+PREP PROGRAM,Medicaid,Medicaid/Medicaid Managed
+AXA EQUITABLE/WEB TPA-PHCS,Commercial,Commercial/Managed Care
+LIBERTY DENTAL PLAN,Commercial,Commercial/Managed Care
+AFFINITY EXCHANGE,Exchange,Exchange
+BRIGHTON,Commercial,Commercial/Managed Care
+COVENTRY HEALTH OF WEST VIRGINI,Commercial,Commercial/Managed Care
+EMPIRE BC/BS PATHWAY,Exchange,Exchange
+UMR(FIRST HEALTH),Commercial,Commercial/Managed Care
+HUMANA POS OPEN ACCESS,MEDICARE MANAGED CARE,Medicare/Medicare Managed
+BEACON MOLINA HC OF NY,MEDICAID MANAGED CARE,Medicaid/Medicaid Managed
+VNS-NY CHOICE FIDA COMPLETE,Medicare HMO,Medicare/Medicare Managed
+MACT UNITED COMMERCIAL HAH,Commercial,Commercial/Managed Care
+AFFINITY ESSENTIALS 3-4,Essential,
+THE MOUNT SINAI IPA-GLOBAL,Commercial,Commercial/Managed Care
+EMPIRE BC/BS GLOBAL TRANSPLANT,Commercial,Commercial/Managed Care
+WTC FOR FDNY,Commercial,Commercial/Managed Care
+AFFINITY BY MOLINA HEALTH ESSENTIAL 3-4,Essential,
+FDNY WTC-NIOSH,Commercial,Commercial/Managed Care
+HORIZON BC/BS OF NJ-CLAIMS,Commercial,Commercial/Managed Care
+INTERNATIONAL INSURANCE GENERIC,Commercial,Commercial/Managed Care
+CENTIVO COMMERCIAL,Commercial,Commercial/Managed Care
+STATE FARM INSURANCE COMPANY,WC/NP,
+ADMIN CONCEPTS INC-PHCS/MULTIPL,Commercial,Commercial/Managed Care
+CENTER LIGHT HEALTHCARE,Medicare HMO,Medicare/Medicare Managed
+WELL CARE ADVOCATE FIDA,MEDICARE/MEDICAID MANAGED CARE,
+LOCAL 342-DICKINSON GRP-MAGNACA,Commercial,Commercial/Managed Care
+LOCAL 1298-MAGNACARE,Commercial,Commercial/Managed Care
+LOCAL 810-MAGNACARE,Commercial,Commercial/Managed Care
+LOCAL 1-BRICK LAYERS-MAGNACARE,Commercial,Commercial/Managed Care
+GHI MCR CHOICE,Medicare HMO,Medicare/Medicare Managed
+UNITED HEALTH PLUS-MAGNACARE,Commercial,Commercial/Managed Care
+METROPLUS FIDA,Medicare HMO,Medicare/Medicare Managed
+SENIOR WHOLE HEALTH OF NEW YORK,Medicare HMO,Medicare/Medicare Managed
+HARVARD PILGRIM HLTHCARE-PHCS,Commercial,Commercial/Managed Care
+UNICARE STATE INDEMNITY-PHCS,Commercial,Commercial/Managed Care
+EMBLEMHEALTH PLAN INC NETWORK ACCESS (AM PLAN ADM),Commercial,Commercial/Managed Care
+ALLIANCE HEALTH-PHCS/MULTIPLAN,Commercial,Commercial/Managed Care
+EXCHANGE GENERIC,Exchange,Exchange
+LIFESTYLE HEALTH PLAN PPO (FIRS,commercial,Commercial/Managed Care
+UNICARE,Commercial,Commercial/Managed Care
+GPA-PHCS,Commercial,Commercial/Managed Care
+ENTYVIO CONNECT CO-PAY PROGRAM,Commercial,Commercial/Managed Care
+HEALTHSMART,Commercial,Commercial/Managed Care
+ULTRABENEFITS INSURANCE-MULTI,Commercial,Commercial/Managed Care
+SELF PAY 20% OF APC CHARITY CARE,Self Pay,Self-Pay
+ROUNDTRIP - MSSLW,WC/NP,
+AETNA WHOLE HEALTH,Commercial,Commercial/Managed Care
+AMERIHEALTH PPO/CMM-PHCS,Commercial,Commercial/Managed Care
+CIGNA PPO (GLOBAL),Commercial,Commercial/Managed Care
+ESSENTIALS GENERIC 1-2,Essential,
+AGEWELL NY MEDICARE,Medicare HMO,Medicare/Medicare Managed
+HIP CHILD HEALTH PLUS B,Medicaid HMO,Medicaid/Medicaid Managed
+NEW YORK STATE INSURANCE FUND,WC/NP,
+GLOBAL EXCEL MGNT-MAGNACARE,Commercial,Commercial/Managed Care
+TOTAL CONCEPTS,Commercial,Commercial/Managed Care
+BLUE CROSS CME GLOBAL MEDICARE,Medicare HMO,Medicare/Medicare Managed
+BLC HOTEL TRADE BARIATRIC,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE INTERNATIONAL,Commercial,Commercial/Managed Care
+MEDICARE PART A B,Medicare,Medicare/Medicare Managed
+ASR HEALTH BENEFITS,Commercial,Commercial/Managed Care
+LOCAL 1205-MAGNACARE,Commercial,Commercial/Managed Care
+TUFTS HEALTH PLAN.,Commercial,Commercial/Managed Care
+HY ESSENTIAL (EMP),Essential,
+WELL CARE HEALTH PLAN (MCD),Medicaid HMO,Medicaid/Medicaid Managed
+EMPIRE BC/BS EMP TOP TIER,Commercial,Commercial/Managed Care
+HUMANA INSURANCE COMPANY-MCR SU,Commercial,Commercial/Managed Care
+SELECT HEALTH SNP,Medicaid HMO,Medicaid/Medicaid Managed
+TRICARE-NORTHEAST,Commercial,Commercial/Managed Care
+SEDGWICK CLAIMS,WC/NP,
+EDEN II SCHOOLS-MAGNACARE,Commercial,Commercial/Managed Care
+MEDICAL MUTUAL-OHIO-PHCS,Commercial,Commercial/Managed Care
+MEDICARE PART A ONLY,Medicare,Medicare/Medicare Managed
+ALICARE-MULTI,Commercial,Commercial/Managed Care
+LOCAL 825-MAGNACARE,Commercial,Commercial/Managed Care
+CIGNA INT'L GHO,COMMERCIAL,Commercial/Managed Care
+PROVIDENCE HEALTH PLAN,Commercial,Commercial/Managed Care
+IBA/GRUNFELD-MAGNACARE,Commercial,Commercial/Managed Care
+EMBLEMHEALTH PLAN INC SELECTCARE EXCHANGE,Exchange,Exchange
+MOUNT SINAI SELECT (HEALTHFIRST,Medicare HMO,Medicare/Medicare Managed
+THE HARTFORD,WC/NP,
+TRANSAMERICA/WEB TPA-MULTIPLAN,Commercial,Commercial/Managed Care
+INTEGRA BMS-PHCS,Commercial,Commercial/Managed Care
+EBMS-PHCS,Commercial,Commercial/Managed Care
+LIBERTY MUTUAL INSURANCE COMPANY,WC/NP,
+HELMSMAN MANAGEMENT SERVICES,WORKERS COMP,
+MEDI-SHARE PROCESSING,Commercial,Commercial/Managed Care
+PRIORITY HEALTH CLAIMS,Commercial,Commercial/Managed Care
+TRAVELERS INSURANCE COMPANY,WC/NP,
+NEW YORK POLICE DEPARTMENT; MEDICAL BILLS UNIT,WC/NP,
+GEHA PRIOR TO 1/1/15,Commercial,Commercial/Managed Care
+INDEPENDENCE CARE SYS FIDA PLAN,Medicare HMO,Medicare/Medicare Managed
+METROPLUS GOLDCARE I,Medicare HMO,Medicare/Medicare Managed
+UNITED HEALTHCARE NEXUS,Commercial,Commercial/Managed Care
+AETNA SAVINGS PLUS,Medicaid HMO,Medicaid/Medicaid Managed
+TUFTS HEALTH PLAN,Commercial,Commercial/Managed Care
+ABA-MAGNACARE,Commercial,Commercial/Managed Care
+WORLD MANAGED CARE PARTNERS,Commercial,Commercial/Managed Care
+LOCAL 807 HEALTH FUND-MAGNACARE,Commercial,Commercial/Managed Care
+PARADIGM,WORKERS COMP,
+ZURICH NORTH AMERICAN CLAIM,WC/NP,
+KAISER PERMANENTE INS CO-PHCS,Commercial,Commercial/Managed Care
+TRIWEST HEALTHCARE ALLIANCE,Commercial,Commercial/Managed Care
+MERITAIN HEALTH-MAGNACARE,Commercial,Commercial/Managed Care
+PRESBYTERIAN HEALTH PLAN-MULTIP,Commercial,Commercial/Managed Care
+GUARDIAN,Commercial,Commercial/Managed Care
+LOCAL 463-MAGNACARE,Commercial,Commercial/Managed Care
+OSCAR SMALL GROUP,Commercial,Commercial/Managed Care
+"INFINITY ADMINISTRATORS,INC",Commercial,Commercial/Managed Care
+NATIONAL HEALTH & WELFARE FUND-,Commercial,Commercial/Managed Care
+LOCAL 60-MAGNACARE,Commercial,Commercial/Managed Care
+NCA COMP,WC/NP,
+AMERIHEALTH HMO-POS PRODUCTS,Medicaid HMO,Medicaid/Medicaid Managed
+AETNA TPA,Commercial,Commercial/Managed Care
+LIFETIME BENEFIT SOLUTIONS,Commercial,Commercial/Managed Care
+HMO GENERIC,Commercial,Commercial/Managed Care
+MEDICAID NEW YORK,Medicaid,Medicaid/Medicaid Managed
+VNS CHOICE MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+AETNA INTERNATIONAL,Commercial,Commercial/Managed Care
+GALLAGHER BASSETT,WC/NP,
+BANKERS LIFE AND CASUALTY CO,Commercial,Commercial/Managed Care
+ZURICH AMERICAN INSURANCE COMPANY,WC/NP,
+LONGEVITY HEALTH PLAN,Commercial,Commercial/Managed Care
+BLUE CROSS/BLUE SHIELD POS,Commercial,Commercial/Managed Care
+CIGNA LIFESOURCE,Commercial,Commercial/Managed Care
+AIG JAPAN OTI NY-MEDICAL PROVID,Commercial,Commercial/Managed Care
+LIFESTYLE HEALTHPLAN(MAGNACARE),Commercial,Commercial/Managed Care
+ROUNDTRIP - MSBIMC,NOT SURE,Other
+HEALTH NEW ENGLAND-PHCS/MUL,Commercial,Commercial/Managed Care
+MAGNACARE-HUMAN CARE,Commercial,Commercial/Managed Care
+AMERICAN REPUBLIC INS CO,Commercial,Commercial/Managed Care
+LOCAL 202-MAGNACARE,Commercial,Commercial/Managed Care
+NFL PROGRAM,Commercial,Commercial/Managed Care
+TEAMSTERS LOCAL 210-MULTIPLAN,Commercial,Commercial/Managed Care
+SELF PAY 60% OF APC CHARITY CARE,Self Pay,Self-Pay
+SELF PAY 50% OF APC CHARITY CARE,Self Pay,Self-Pay
+PREFERRED ONE ADMINISTRATIVE SE,Commercial,Commercial/Managed Care
+LEADING EDGE ADMINISTRATORS,Commercial,Commercial/Managed Care
+OLYMPUS MANAGED HEALTH CARE INC,Commercial,Commercial/Managed Care
+BEHAVIORAL HEALTH SELF-PAY,SELF-PAY,Self-Pay
+BROADSPIRE,WORKERS COMP,
+LOCAL 12A-MAGNACARE,Commercial,Commercial/Managed Care
+HARTFORD CASUALTY INSURANCE COMPANY,WC/NP,
+OPTIMA HEALTH-PHCS,Commercial,Commercial/Managed Care
+NORGUARD INSURANCE COMPANY,WC/NP,
+QUALITY HEALTH MANAGEMENT,Commercial,Commercial/Managed Care
+NEW JERSEY MEDICAID,Medicaid,Medicaid/Medicaid Managed
+HUMANA TRANSPLANT GLOBAL,COMMERCIAL,Commercial/Managed Care
+LOCAL 95 HEAD START-MAGNACARE,Commercial,Commercial/Managed Care
+SOMPO INSURANCE GRS,WC/NP,
+UTICA NATIONAL INSURANCE COMPANY OF TEXAS,WC/NP,
+OPTUM HEALTH UNITED,Commercial,Commercial/Managed Care
+ORISKA INSURANCE COMPANY,COMMERCIAL/WORKERS COMP/DISABILITY,Commercial/Managed Care
+THE LOOMIS COMPANY,Commercial,Commercial/Managed Care
+OPTUM HEALTH UNITED MCR GLOBAL,Medicare HMO,Medicare/Medicare Managed
+KEY SOLUTIONS-MULTIPLAN,Commercial,Commercial/Managed Care
+MEDICAID OUT OF STATE PENDING,Medicaid,Medicaid/Medicaid Managed
+PAN AMERICAN LIFE-MULTIPLAN,Commercial,Commercial/Managed Care
+BROADSPIRE INSURANCE COMPANY,WC/NP,
+AMERIHEALTH HMO PRODUCTS-MULTI,Commercial,Commercial/Managed Care
+ALTERNATIVE RISK MANAGEMENT-PHC,Commercial,Commercial/Managed Care
+LIFE BP-LOCAL 890-MULTIPLAN,Commercial,Commercial/Managed Care
+NIPPON LIFE BENEFITS- MULTIPLAN,Commercial,Commercial/Managed Care
+AETNA MANAGED CHOICE,Commercial,Commercial/Managed Care
+LOOMIS COMPANY-MAGNACARE,Commercial,Commercial/Managed Care
+MEDCARE,Commercial,Commercial/Managed Care
+WORKER'S COMPENSATION,WC/NP,
+HIP MONTEFIORE CMO-HMO,Commercial,Commercial/Managed Care
+PMA INSURANCE GROUP,WC/NP,
+AMERIHEALTH ADMINISTRATORS-PHCS,Commercial,Commercial/Managed Care
+EMPLOYEE BENEFIT SOLUTIONS-MAGN,Commercial,Commercial/Managed Care
+COLONIAL PENN FRANKLIN,WC/NP,
+PACIFIC SOURCE,Commercial,Commercial/Managed Care
+HEALTHCASE INTERNATIONAL,Commercial,Commercial/Managed Care
+CERNER HEALTHPLAN SERVICES-PHCS,Commercial,Commercial/Managed Care
+UNION LABOR LIFE INS CO.,Commercial,Commercial/Managed Care
+BEECHSTREET MISC,Commercial,Commercial/Managed Care
+HEALTHPLEX,Medicaid,Medicaid/Medicaid Managed
+TRAVEL GUARD,Commercial,Commercial/Managed Care
+OXFORD LIBERTY PLAN METRO POS,Commercial,Commercial/Managed Care
+NEW YORK CENTRAL MUTUAL FIRE INSURANCE COMPANY,WC/NP,
+WELL CARE ESSENTIALS 1,Essential,
+EMPLOYERS HEALTH NETWORK,Commercial,Commercial/Managed Care
+SOMPO JAPAN INSURANCE,Commercial,Commercial/Managed Care
+HEALTHNOW ADMIN SERVICES-PHCS/M,Commercial,Commercial/Managed Care
+PERMA INSURANCE,WORKERS COMP,
+AETNA QPOS,Commercial,Commercial/Managed Care
+HAREL INTERNATIONAL,Commercial,Commercial/Managed Care
+EMPIRE BC PPO,Commercial,Commercial/Managed Care
+SELECTCARE,Commercial,Commercial/Managed Care
+AMERICA'S CHOICE HEALTHPLANS-PH,Commercial,Commercial/Managed Care
+TRAVEL CARE SERVICES-MULTIPLAN,Commercial,Commercial/Managed Care
+FREEDOM LIFE INS CO OF AMERICA-,Commercial,Commercial/Managed Care
+GILSBAR INC-PHCS,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE CHOICE-MSI,Commercial,Commercial/Managed Care
+ALLSTATE INSURANCE COMPANY.,Commercial,Commercial/Managed Care
+OPTUM HEALTH MVP,Commercial,Commercial/Managed Care
+LOCAL 137 WELFARE FUND-PHCS/MUL,Commercial,Commercial/Managed Care
+EURO-CENTER USA-PHCS,Commercial,Commercial/Managed Care
+ESIS,WC/NP,
+EMBASSY OF THE STATE OF KUWAIT,Self Pay,Self-Pay
+NATIONWIDE HEALTH PLAN,Commercial,Commercial/Managed Care
+SENECA GRP,Commercial,Commercial/Managed Care
+ALLIANZ GLOBAL ASSISTANCE,Commercial,Commercial/Managed Care
+AGVA WELLFARE FUND TRUST,Commercial,Commercial/Managed Care
+ARGUS HEALTH,Commercial,Commercial/Managed Care
+US DEPARTMENT OF LABOR; OFFICE OF WC PROGRAMS,WC/NP,
+MABSTOA,WC/NP,
+ALLSTATE,WC/NP,
+ACE INSURANCE,NO FAULT/AUTO,
+OPTUM HEALTH UNITED MEDICARE,Medicare HMO,Medicare/Medicare Managed
+TBT/PHCS,Commercial,Commercial/Managed Care
+RISK MANAGEMENT PLANNING GROUP,WORKERS COMP,
+JOHNS HOPKINS HEALTHCARE-PHCS,Commercial,Commercial/Managed Care
+AMERICAN TRANSIT INSURANCE COMPANY,COMMERCIAL,Commercial/Managed Care
+PROGRESSIVE INSURANCE COMPANY,NO FAULT,
+AETNA GLOBAL BENEFITS,Commercial,Commercial/Managed Care
+SENTRY INSURANCE CLAIMS CENTER,#N/A,Other
+AIG,LIFE/RETIREMENT,
+SEDGWICK CMS COMPANY,WC/NP,
+AMERIBEN SOLUTIONS,Commercial,Commercial/Managed Care
+CITY OF NEW YORK LAW DEPARTMENT,WC/NP,
+EMPIRE BC/BS,Commercial,Commercial/Managed Care
+SUFFOLK COUNTY RISK MANAGEMENT AND BENEFITS DIVISION,WORKERS COMP,
+NATIONWIDE INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+GREATER NEW YORK MUTUAL INSURANCE COMPANY,COMMERCIAL,Commercial/Managed Care
+MAGNA EMPLOYEES SECURITY FUND,Commercial,Commercial/Managed Care
+FLORIDA MEDICAID,MEDICAID  ,Medicaid/Medicaid Managed
+NEW YORK CITY DEPARTMENT OF SANITATION,WC/NP,
+OPTUM HIP HEALTHCARE PARTNERS,#N/A,Other
+BLUE CROSS OUT OF STATE (PPO IN SUIT CASE),Commercial,Commercial/Managed Care
+MEDICARE PART A AND B,Medicare,Medicare/Medicare Managed
+LONG ISLAND RAILROAD MEDICAL OFFICE,TRANSIT/COMMERCIAL,Commercial/Managed Care
+CSP QUEENS,#N/A,Other
+FDNY,COMMERCIAL,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY VIP MEDICARE,Medicare HMO,Medicare/Medicare Managed
+OPTIMA HEALTH HOV,Commercial,Commercial/Managed Care
+ESIS NORTHEAST,WC/NP,
+BERKSHIRE HATHAWAY HOMESTATE,WORKERS COMP,
+CONSOLIDATED HLTH PLN-MAGNACARE,Commercial,Commercial/Managed Care
+CENTRAL PA TEAMSTERS HLTH & WEL,Commercial,Commercial/Managed Care
+CHUBB INSURANCE,NO FAULT/AUTO,
+OXFORD FREEDOM PLAN DIRECT - OP,Commercial,Commercial/Managed Care
+AEXCEL PLUS AETNA SELECT,Commercial,Commercial/Managed Care
+OPTUM HEALTH HIP,Commercial,Commercial/Managed Care
+UNITED HEALTHCARE NSLIJ EMPLOYEE,Commercial,Commercial/Managed Care
+HIP PRIME,Commercial,Commercial/Managed Care
+AXA ASSISTANCE,Commercial,Commercial/Managed Care
+LIFETRAC NETWORK,Commercial,Commercial/Managed Care
+CCMSI,WC/NP,
+AMICA MUTUAL INSURANCE COMPANY,NO FAULT/AUTO,
+SEVEN CORNERS,Commercial,Commercial/Managed Care
+MEDICA,Commercial,Commercial/Managed Care
+LIFEWISE HEALTHPLAN OF OREGON,Commercial,Commercial/Managed Care
+KEY SELECT,Commercial,Commercial/Managed Care
+NGS CORESOURCE-PHCS,Commercial,Commercial/Managed Care
+HEALTHNOW-PHCS,Commercial,Commercial/Managed Care
+MAIL HANDLER'S BENEFIT PLAN-(AETNA),Commercial,Commercial/Managed Care
+QUALCARE,Commercial,Commercial/Managed Care
+OPTUM HEALTH OXFORD MEDICARE,Medicare HMO,Medicare/Medicare Managed
+AULTCARE,Commercial,Commercial/Managed Care
+ESURANCE INSURANCE COMPANY,NO FAULT/AUTO,
+RELIANCE STANDARD MEDICAL-MULTI,Commercial,Commercial/Managed Care
+NEW YORK CITY TRANSIT AUTHORITY,TRANSIT/COMMERCIAL,Commercial/Managed Care
+AXA PPP INTERNATIONAL-PHCS/MUL,Commercial,Commercial/Managed Care
+VYTRA HEALTH PLAN,Commercial,Commercial/Managed Care
+BLUE CARD,Commercial,Commercial/Managed Care
+REDBRIGE-MULTIPLAN,WC/NP,
+OXFORD SELECT FREEDOM NETWORK H,Commercial,Commercial/Managed Care
+TRIAD GROUP,WC/NP,
+PLYMOUTH ROCK INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+HIP MONTEFIORE MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+CIGNA POS,Commercial,Commercial/Managed Care
+HMAA-PHCA,Commercial,Commercial/Managed Care
+STELARA JANSEN CARE PATH CO-PAY PROGRAM,Commercial,Commercial/Managed Care
+CAR-T ABECMA,Commercial,Commercial/Managed Care
+HEALTHCARE SOLUTIONS GROUP,Commercial,Commercial/Managed Care
+EMBLEMHEALTH INS COMPANY HMO,Commercial,Commercial/Managed Care
+FISERV HEALTH (PHCS),Commercial,Commercial/Managed Care
+BLUE CROSS HOTEL TRADE UNION,Commercial,Commercial/Managed Care
+EVERGREEN HEALTH,Commercial,Commercial/Managed Care
+HY PREMIER (SELF),Self Pay,Self-Pay
+AG ADMINISTRATORS,Commercial,Commercial/Managed Care
+HEALTHSPAN,Commercial,Commercial/Managed Care
+BC/BS BISLR EMPLOYEES POS,Commercial,Commercial/Managed Care
+OXFORD HEALTH PLANS HMO,Commercial,Commercial/Managed Care
+POPULYTICS,Commercial,Commercial/Managed Care
+QUALCHOICE,Commercial,Commercial/Managed Care
+BEACON MOLINA HC ESSENTIAL 1-2,MEDICAID MANAGED CARE,Medicaid/Medicaid Managed
+LOCAL 456-WESTCHESTER-MAGNACARE,Commercial,Commercial/Managed Care
+ANTHEM HEALTH BC/BS,Commercial,Commercial/Managed Care
+MEDICARE,Medicare,Medicare/Medicare Managed
+SAFECO INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+LIFESOURCE,Commercial,Commercial/Managed Care
+AETNA ELECT-CHOICE,Commercial,Commercial/Managed Care
+COMPLETE CHOICE PLUS/WEB TPA,Commercial,Commercial/Managed Care
+CONTINENTAL CASUALTY,#N/A,Other
+DESJARDINS INSURANCE,NO FAULT/AUTO,
+BMT DONOR MEDICARE RECIPIENT,Medicare,Medicare/Medicare Managed
+STANDARD LIFE AND ACCIDENT INS,WC/NP,
+HEALTHEZ,Commercial,Commercial/Managed Care
+OPTUM HEALTH OXFORD MEDICAID ,Medicaid HMO,Medicaid/Medicaid Managed
+CRUM AND FORSTER INDEMNITY COMPANY,NO FAULT/AUTO,
+COUNTRY WIDE INSURANCE COMPANY,#N/A,Other
+HEREFORD INSURANCE COMPANY,WC/NP,
+AXA ASSISTANCE USA,Commercial,Commercial/Managed Care
+OPTUM HEALTH OXFORD,Commercial,Commercial/Managed Care
+EMPIRE BC/BS PATHWAY ENHANCED,Exchange,Exchange
+UNITY HEALTH INSURANCE,Commercial,Commercial/Managed Care
+CSP BRONX,Commercial,Commercial/Managed Care
+HEALTHFIRST MEDICARE HMO (MANAGED HEALTH INC),Medicare HMO,Medicare/Medicare Managed
+USAA CASUALTY INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+VISITING NURSE SERVICE,Commercial,Commercial/Managed Care
+QUALCARE PLAN ADMINISTRATORS,Commercial,Commercial/Managed Care
+FOJP C/O RMPG,WC/NP,
+WRIGHT RISK MANAGEMENT,WORKERS COMP,
+HANOVER INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+KLAIS & COMPANY INC-EMBLEMHEALT,Commercial,Commercial/Managed Care
+BLUEGRASS FAMILY HLTH-BEECHSTRE,Commercial,Commercial/Managed Care
+YORK RISK SERVICES GROUP,LIFE/RETIREMENT,
+ROJW-HEALTH CARE SUPPORT-PHCS,Commercial,Commercial/Managed Care
+LOCAL 147 WELFARE FUND-MULTIPLA,Commercial,Commercial/Managed Care
+DENTAQUEST,Medicaid,Medicaid/Medicaid Managed
+IHC HEALTH SOLUTIONS,Commercial,Commercial/Managed Care
+MEMIC INDEMNITY COMPANY,WORKERS COMP,
+MTA BUS COMPANY,TRANSIT/COMMERCIAL,Commercial/Managed Care
+OPTUM HEALTH HIP MEDICAID,Medicaid HMO,Medicaid/Medicaid Managed
+UNITED HEALTHCARE,Commercial,Commercial/Managed Care
+EMBLEM HIP EXCHANGE,Exchange,Exchange
+HOTEL TRADE BARIATRIC BUNDLE,Commercial,Commercial/Managed Care
+IUOE LOCAL 25-PHCS/MUL,Commercial,Commercial/Managed Care
+HY ESSENTIAL (SELF),Essential,
+WELLCARE MCD HMO,Medicaid HMO,Medicaid/Medicaid Managed
+BENETECH,DISABILITIES AND RETIREMENTS,
+"AIG NATIONAL INSURANCE COMPANY, INC",LIFE/RETIREMENT,
+TRI STATE CONSUMER INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+MCD HMO PENDING,Medicaid HMO,Medicaid/Medicaid Managed
+NATIONAL GENERAL INSURANCE COMPANY,NO FAULT/AUTO/HOME,
+FRESENIUS HEALTH PARTNERS    ,Medicare HMO,Medicare/Medicare Managed
+ESSENTIALS GENERIC 3-4,Essential,
+SELECT BENEFIT ADMINISTRATORS,Commercial,Commercial/Managed Care
+SELF PAY,Self Pay,Self-Pay
+MAPFRE LIFE INS CO OF PUERTO RI,Commercial,Commercial/Managed Care
+"WINE, LIQUOR & DISTILLERY/LOCAL",UNION LOCAL ONE,
+UNITED HEALTH CARE PPO,Commercial,Commercial/Managed Care
+NATIONAL CASUALTY COMPANY,COMMERCIAL/ASSETS,Commercial/Managed Care
+AETNA US HEALTHCARE PPO,Commercial,Commercial/Managed Care
+KEMPER LIFE,WC/NP,
+FIRST UNITED AMERICAN LIFE INSU,Commercial,Commercial/Managed Care
+DENTAQUEST HEALTHFIRST MCD-CHP,Medicaid HMO,Medicaid/Medicaid Managed
+RISK ADMINISTRATION MANAGEMENT,Commercial,Commercial/Managed Care
+ANTHEM BLUE CROSS,COMMERCIAL,Commercial/Managed Care
+NEW YORK LIQUIDATION BUREAU,COMMERCIAL,Commercial/Managed Care
+HEALTH REPUBLIC OF NJ,Commercial,Commercial/Managed Care
+CLAIMS SERVICE BUREAU OF NEW YORK,WC/NP,
+BLUELINE LIBERTY,Commercial,Commercial/Managed Care
+LIFETIME BENEFIT SOLUTIONS-PHCS,Commercial,Commercial/Managed Care
+ZZZRDTRP-MSSLW,Commercial,Commercial/Managed Care
+NEW JERSEY MANUFACTURERS INSURANCE,NO FAULT/AUTO/HOME,
+AMERIHEALTH NJ-DE PPO PRODUCTS,MEDICARE/MEDICAID MANAGED CARE,
+NTCA BENEFITS-MULTIPLAN,Commercial,Commercial/Managed Care
+MAGNACARE-NON ENTRY,Commercial,Commercial/Managed Care
+ALKOOT ,Commercial,Commercial/Managed Care
+CEMENT & CONCRETE WORKERS,Commercial,Commercial/Managed Care
+PREP-AP PENDING,MEDICAID,Medicaid/Medicaid Managed
+CONIFER HEALTH SOLUTIONS,Commercial,Commercial/Managed Care

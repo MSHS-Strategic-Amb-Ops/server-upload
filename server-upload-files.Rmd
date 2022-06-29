@@ -151,9 +151,18 @@ write_xlsx(open_enc_exc_visit, "/nfs/data/Applications/Ambulatory/open_encounter
 epic_depts <- read.csv("Epic Department Mapping Correction.csv")
 write.csv(epic_depts, "/nfs/data/Applications/Ambulatory/Epic Department Mapping Correction.csv", row.names=FALSE)
 
+# Epic Visit Plan Groupings
+visit_plan <- read_csv("Visit_Plans.csv")
+write.csv(visit_plan, "/nfs/data/Applications/Ambulatory/Visit Plans.csv", row.names=FALSE)
+
+# Epic Department Location Zip Code 
+dept_zip <- read_csv("Department_Zip_Code.csv")
+write.csv(dept_zip, "/nfs/data/Applications/Ambulatory/Department_Zip_Code.csv", row.names=FALSE)
+
 # Mount Sinai Logo
 logo <- readPNG("Mount_Sinai_Logo_H.png")
 png("/nfs/data/Applications/Ambulatory/Mount_Sinai_Logo_H.png")
+
 
 ```
 

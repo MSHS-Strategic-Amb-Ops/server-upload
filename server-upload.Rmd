@@ -1,0 +1,428 @@
+---
+title: "Upload Files to Server"
+output: html_document
+resource_files:
+- radiology-data/radiology_historical_data.rds
+---
+
+
+```{r Load Packages, echo = FALSE, warning = FALSE, message = FALSE}
+# # Load packages -----------------------------------------------------------------------------------
+suppressMessages({
+  memory.limit(size = 8000000)
+  library(readxl)
+  library(writexl)
+  library(plyr)
+  library(dplyr)
+  library(data.table)
+  library(zoo)
+  library(shiny)
+  library(shinydashboard)
+  library(shinydashboardPlus)
+  library(shinyWidgets)
+  library(htmlwidgets)
+  library(lubridate)
+  library(tcltk)
+  library(tidyverse)
+  library(plotly)
+  library(knitr)
+  library(kableExtra)
+  library(leaflet)
+  library(grid)
+  library(gridExtra)
+  library(eeptools)
+  library(ggQC)
+  library(zipcodeR)
+  library(utils)
+  library(scales)
+  library(chron)
+  library(bupaR)
+  library(shiny)
+  library(DT)
+  library(DiagrammeR)
+  library(shinyalert)
+  library(edeaR)
+  library(processmapR)
+  library(processmonitR)
+  library(processanimateR)
+  library(tidyr)
+  library(lubridate)
+  library(RColorBrewer)
+  library(DiagrammeR)
+  library(ggplot2)
+  library(leaflet)
+  library(readr)
+  library(highcharter)
+  library(ggforce) # for 'geom_arc_bar'
+  library(packcircles) # for packed circle graph
+  library(viridis)
+  library(ggiraph)
+  library(treemapify)
+  library(treemap)
+  library(broom)
+  library(extrafont)
+  library(tis) # for US holidays
+  library(vroom)
+  library(sjmisc)
+  library(tools)
+  library(here)
+  library(shinyBS)
+  library(shinyscreenshot)
+  library(fasttime)
+  library(shinycssloaders)
+  library(feather)
+  # library(zipcodeR)
+  library(formattable)
+  library(shinyjs)
+  library(janitor)
+  library(patchwork)
+  library(flexdashboard)
+  # library(tidyverse)
+  # library(viridis)
+  # library(hrbrthemes)
+  # library(plotly)
+  # install.packages("bsts")
+  library(bsts)
+  library(reactable)
+  # install.packages("reactablefmtr")
+  library(reactablefmtr)
+  library(svDialogs)
+  # library(openxlsx)
+  library(flextable)
+  library(officedown)
+  library(officer)
+  library(magrittr)
+  library(webshot) 
+  library(png)
+  library(ggh4x)
+  library(RODBC)
+  library(DBI)
+  library(odbc)
+  library(dbplyr)
+  library(pool)
+  library(emojifont)
+})
+
+```
+
+
+```{r Connect to Oracle, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Connection to Oracle DB ------------------------------------------------------
+conn1 <- dbPool(drv = odbc(), dsn = "OAO Cloud DB SoYoun", timeout = 30)
+
+```
+
+
+```{r Process Hand Hygiene Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Weekly Hand Hygiene Data
+# hh_comp <- read.csv("hh_comp.csv")
+# write.csv(hh_comp, "/nfs/data/Applications/Ambulatory/hh_comp.csv", row.names=FALSE)
+
+
+# HH Unit Crosswalk
+hh_crosswalk <- read.csv("hh_crosswalk.csv")
+write.csv(hh_crosswalk, "/nfs/data/Applications/Ambulatory/hh_crosswalk.csv", row.names=FALSE)
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE HH_CROSSWALK")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(hh_crosswalk), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- hh_crosswalk[i:nrow(hh_crosswalk), ]
+  } else {
+    batch <- hh_crosswalk[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "HH_CROSSWALK", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Radiology Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Radiology Volume Monthly Summary Data
+Radiology_Data <- read.csv("Radiology_Data.csv")
+write.csv(Radiology_Data, "/nfs/data/Applications/Ambulatory/Radiology_Data.csv", row.names=FALSE)
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE RADIOLOGY_DATA")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(Radiology_Data), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- Radiology_Data[i:nrow(Radiology_Data), ]
+  } else {
+    batch <- Radiology_Data[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "RADIOLOGY_DATA", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Radiology Mapping Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Radiology Site Mapping
+Radiology_Site_Mapping <- read.csv("Radiology_Site_Mapping.csv")
+write.csv(Radiology_Site_Mapping, "/nfs/data/Applications/Ambulatory/Radiology_Site_Mapping.csv", row.names=FALSE)
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE RADIOLOGY_SITE_MAPPING")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(Radiology_Site_Mapping), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- Radiology_Site_Mapping[i:nrow(Radiology_Site_Mapping), ]
+  } else {
+    batch <- Radiology_Site_Mapping[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "RADIOLOGY_SITE_MAPPING", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Radiation Oncology Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Rad Onc Volume Monthly Summary Data
+Rad_Onc_Data <- read.csv("Rad_Onc_Data.csv")
+write.csv(Rad_Onc_Data, "/nfs/data/Applications/Ambulatory/Rad_Onc_Data.csv", row.names=FALSE)
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE RAD_ONC_DATA")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(Rad_Onc_Data), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- Rad_Onc_Data[i:nrow(Rad_Onc_Data), ]
+  } else {
+    batch <- Rad_Onc_Data[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "RAD_ONC_DATA", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+
+```
+
+
+```{r Process Open Encounters Exclusion Dept Criteria Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Open Encounters Exclusion Criteria - By Dept
+open_enc_exc_dept <- read_excel("open_encounters_exclusion_dept.xlsx", sheet = "Department")
+write_xlsx(open_enc_exc_dept, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion_dept.xlsx")
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE OPEN_ENC_EXCLUSION_DEPT")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(open_enc_exc_dept), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- open_enc_exc_dept[i:nrow(open_enc_exc_dept), ]
+  } else {
+    batch <- open_enc_exc_dept[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "OPEN_ENC_EXCLUSION_DEPT", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+
+```
+
+
+```{r Process Open Encounters Resource Exclusion Criteria , echo = FALSE, warning = FALSE, message = FALSE}
+
+# Open Encounters Exclusion Criteria - By Resource
+open_enc_exc_res <- read_excel("open_encounters_exclusion_res.xlsx", sheet = "Resource")
+write_xlsx(open_enc_exc_res, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion_res.xlsx")
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE OPEN_ENC_EXCLUSION_RESOURCE")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(open_enc_exc_res), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- open_enc_exc_res[i:nrow(open_enc_exc_res), ]
+  } else {
+    batch <- open_enc_exc_res[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "TRUNCATE TABLE OPEN_ENC_EXCLUSION_RESOURCE", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Open Encounters Visit Type Exclusion Criteria, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Open Encounters Exclusion Criteria - By Visit Type
+open_enc_exc_visit <- read_excel("open_encounters_exclusion_visit.xlsx", sheet = "Visit Type")
+write_xlsx(open_enc_exc_visit, "/nfs/data/Applications/Ambulatory/open_encounters_exclusion_visit.xlsx")
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE OPEN_ENC_EXCLUSION_VISIT")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(open_enc_exc_visit), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- open_enc_exc_visit[i:nrow(open_enc_exc_visit), ]
+  } else {
+    batch <- open_enc_exc_visit[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "OPEN_ENC_EXCLUSION_VISIT", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process EPIC DEP Zip Code Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Epic Department Location Zip Code
+dept_zip <- read_csv("Department_Zip_Code.csv")
+write.csv(dept_zip, "/nfs/data/Applications/Ambulatory/Department_Zip_Code.csv", row.names=FALSE)
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE OPEN_ENC_EXCLUSION_VISIT")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(dept_zip), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- dept_zip[i:nrow(dept_zip), ]
+  } else {
+    batch <- dept_zip[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "DEPT_ZIP_CODE", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Clinical Department Mapping Data, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Master Amb Mapping
+master_amb <- read_excel("master_amb_mapping_updated.xlsx")
+write_xlsx(master_amb, "/nfs/data/Applications/Ambulatory/master_amb_mapping_updated.xlsx")
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE MASTER_AMB_MAPPING")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(master_amb), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- master_amb[i:nrow(master_amb), ]
+  } else {
+    batch <- master_amb[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "MASTER_AMB_MAPPING", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Clinical Department Appt Type Mapping, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Master Appt Type Mapping
+master_amb_appt <- read_excel("master_amb_appt_type_mapping.xlsx")
+write_xlsx(master_amb_appt, "/nfs/data/Applications/Ambulatory/master_amb_appt_type_mapping.xlsx")
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE MASTER_AMB_MAPPING_APPT")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(master_amb_appt), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- master_amb_appt[i:nrow(master_amb_appt), ]
+  } else {
+    batch <- master_amb_appt[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "MASTER_AMB_MAPPING_APPT", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Process Clinical Department Provider Mapping, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Master Sessional Providers Mapping
+master_amb_prov <- read_excel("master_amb_sessional_provider_mapping.xlsx")
+write_xlsx(master_amb_prov, "/nfs/data/Applications/Ambulatory/master_amb_sessional_provider_mapping.xlsx")
+
+# Truncate the table
+dbExecute(conn1, "TRUNCATE TABLE MASTER_AMB_MAPPING_PROV")
+
+## Write to Oracle 
+batch_size <- 1000
+ 
+index_squence <- seq(1, nrow(master_amb_prov), by = batch_size)
+for (i in index_squence) {
+  if(i == max(index_squence)) {
+    batch <- master_amb_prov[i:nrow(master_amb_prov), ]
+  } else {
+    batch <- master_amb_prov[i:(i + batch_size - 1), ]
+  }
+  dbWriteTable(conn = conn1, name = "MASTER_AMB_MAPPING_APPT", value = batch, row.names = FALSE, append = TRUE)
+  print(paste0("i is:", i))
+  print(batch)
+}
+
+```
+
+
+```{r Logo, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Mount Sinai Logo
+logo <- readPNG("Mount_Sinai_Logo_H.png")
+png("/nfs/data/Applications/Ambulatory/Mount_Sinai_Logo_H.png")
+
+```
+

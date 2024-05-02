@@ -317,7 +317,7 @@ dept_zip <- read_csv("Department_Zip_Code.csv")
 write.csv(dept_zip, "/nfs/data/Applications/Ambulatory/Department_Zip_Code.csv", row.names=FALSE)
 
 # Truncate the table
-dbExecute(conn1, "TRUNCATE TABLE OPEN_ENC_EXCLUSION_VISIT")
+dbExecute(conn1, "TRUNCATE TABLE DEPT_ZIP_CODE")
 
 ## Write to Oracle 
 batch_size <- 1000
